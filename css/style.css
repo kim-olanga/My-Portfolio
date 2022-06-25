@@ -20,6 +20,9 @@ body{
     background: linear-gradient(deeppink,purple);
     padding: 5.5rem;
 }
+section{
+    padding: 1rem 7%;
+}
 .btn{
     font-size:2rem ;
     padding:.7rem 4rem;
@@ -34,6 +37,13 @@ body{
 .btn:hover{
     background: rgba(255,255,255,.5);
     color: #555;
+}
+.heading{
+    font-size: 3rem;
+    text-align: center;
+    padding: 1rem;
+    color: #fff;
+
 }
 header{
     width: 35rem;
@@ -139,8 +149,34 @@ header .navbar ul li a:hover{
     margin: 1rem;
     color: #fff;
     font-size: 2rem;
+    border-radius: 1rem;
 }
 .home .share a:hover{
     background:rgba(255,255,255,.5);
     color: #555;
+}
+.about{
+    min-height: 100%;
+}
+.about .content h3{
+   font-size: 2.5rem; 
+   color: #eee;
+}
+.about .content h3 span{
+    color: #fff;
+}
+.about .content p{
+    font-size: 1.5rem; 
+    color: #eee;
+    padding: .5rem 0;
+}
+.about .skills{
+    padding: 1rem 0;
+}
+.about .skills .progress{
+    margin:1.5rem 0;
+    padding: 1rem;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
+    background: rgba(255,255,255,.2);
+    border-radius: 1rem;
 }
