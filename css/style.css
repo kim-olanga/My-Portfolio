@@ -81,3 +81,12 @@ header .navbar ul li a:hover{
     border-radius: 1rem;
     overflow: hidden;
 }
+.home{
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    position: relative;
+    padding-bottom: 10rem;
+}
