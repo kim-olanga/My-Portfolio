@@ -155,11 +155,11 @@ header .navbar ul li a:hover{
     background:rgba(255,255,255,.5);
     color: #555;
 }
-.about .content h3{
+.about .content h2{
    font-size: 3.5rem; 
    color: #eee;
 }
-.about .content h3 span{
+.about .content h2 span{
     color: #fff;
 }
 .about .content p{
@@ -203,13 +203,13 @@ header .navbar ul li a:hover{
     background: #fff;
 }
 .skills .skills .progress:nth-child(1) .bar span{
-    width: 65%;
+    width: 90%;
 }
 .skills .skills .progress:nth-child(2) .bar span{
-    width: 65%;
+    width: 85%;
 }
 .skills .skills .progress:nth-child(3) .bar span{
-    width: 75%;
+    width: 99.5%;
 }
 .skills .skills .progress:nth-child(4) .bar span{
     width: 90%;
@@ -240,27 +240,27 @@ header .navbar ul li a:hover{
 .services .box-container .box p{
     color: #fff;
     font-size: 1.5rem;
-    padding:3rem 3rem;
+    padding:1rem 3rem;
 }
-.projects .box-container{
+.education .box-container{
     display: flex;
     /* align-items: center; */
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 2rem 0;
 }
-.projects .box-container .box{
+.education .box-container .box{
     width: 30rem;
     padding: 0 2rem;
     padding-bottom: 4rem;
     border-left: 2rem solid #eee;
 }
-.projects .box-container .box .year{
+.education .box-container .box .year{
     font-size: 2rem;
     color: #eee;
     position: relative;
 }
-.projects .box-container .box .year::before{
+.education .box-container .box .year::before{
     content:'';
     position: absolute;
     top: .3rem; left: -3.1rem;
@@ -269,15 +269,15 @@ header .navbar ul li a:hover{
     border-radius: 50%;
     background: #fff; 
 }
-.projects .box-container .box h3{
+.education .box-container .box h3{
     font-size: 2rem;
     color: #fff;
     padding-top: 1rem;
 }
-.projects .box-container .box p{
-    font-size: 1.3rem;
+.education .box-container .box p{
+    font-size: 1.4rem;
     color: #eee;
-    padding: 1rem 0;
+    padding: 1rem 1;
 }
 .skills .box-container{
     display: flex;
